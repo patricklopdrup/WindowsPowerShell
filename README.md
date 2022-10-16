@@ -17,3 +17,12 @@
 - Open PowerShell 7
 - Type `$PROFILE` and see a path like: `~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1` (here only `PowerShell`)
 - `New-Item -Type SymbolicLink -Value '~\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1' -Path $PROFILE` to create a symbolic link from PowerShell 5 config to PowerShell 7 config
+
+## Things to download
+### posh-git
+[posh-git download](https://github.com/dahlbyk/posh-git)
+
+### lfcd
+- Make a `.bin` folder in your user folder. So you have: `~/.bin/`
+- Make a file called `lfcd.ps1` and paste [this code](https://github.com/gokcehan/lf/blob/master/etc/lfcd.ps1) in the file
+- Make an environment variable in `User variables for <your user>` for the `.bin` folder
